@@ -15,8 +15,8 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div class="container mx-auto">
         <header className='text-3xl font-bold uppercase'>{data.site.siteMetadata.title}</header>
-        <nav>
-        <ul>
+        <nav className='flex justify-center bg-gray-500 '>
+        <ul className='p-4 flex gap-4'>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li>
