@@ -6,12 +6,13 @@ import Seo from '../components/seo'
 // Step 2: Define your component
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
-    <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+    <Layout pageTitle="About Us">
+    <p>Basic Caulking specializes in residential, commercial and industrial projects. We are dedicated to quality, details and lasting results.</p>
+      <p>With over 20 years of experience we offer top-quality products and services.</p>
   </Layout>
   )
 }
 
-export const Head = () => <Seo title="About Me" />
+export const Head = () => <Seo title="About Us" />
 // Step 3: Export your component
 export default AboutPage
