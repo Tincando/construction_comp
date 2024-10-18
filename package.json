@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "install": "npm install --legacy-peer-deps",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
