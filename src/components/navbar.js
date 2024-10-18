@@ -224,8 +224,8 @@ c-13 39 -28 72 -32 72 -5 0 -8 -52 -8 -115z"
             </svg>
           </li>
           <li>
-            <a class="text-sm text-gray-400 hover:text-gray-500">
-              <Link to="/blog" unselectable="on">
+            <a className="text-sm text-gray-400 hover:text-gray-500" style={{ userSelect: 'none' }}>
+              <Link to="/blog" unselectable="on" style={{ userSelect: 'none' }}>
                 Projects
               </Link>
             </a>
