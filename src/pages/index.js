@@ -85,7 +85,7 @@ const IndexPage = () => {
       </div>
 
       <div className="mx-auto w-full h-auto bg-white pb-10">
-        <div className="flex gap-10 px-10 pt-28 justify-start">
+        <div className="flex  md:col-1 gap-10 px-10 pt-28 justify-start">
           <div class="col w-1/2">
             <h1 className="flex pb-4 text-balance text-2xl font-bold tracking-tight  sm:text-4xl">
               WHO WE WORK WITH
@@ -94,7 +94,14 @@ const IndexPage = () => {
           </div>
           <div class="col">
             <div class="max-w-3xl mx-auto ">
-              <p className="flex justify-center  "></p>
+              <p className="flex justify-center  ">ARAGON</p>
+              <p className="flex justify-center  ">GCL BUILDS</p>
+              <p className="flex justify-center  ">RIISE BUILDING INC</p>
+              <p className="flex justify-center  ">SKYGRID</p>
+              <p className="flex justify-center  ">CHESNUT HILL DEVELOPMENTS</p>
+              <p className="flex justify-center  ">SAVIC HOMES</p>
+              <p className="flex justify-center  ">VANMAR CONSRUCTORS</p>
+              <p className="flex justify-center  ">ZEHR GROUP</p>
             </div>
           </div>
         </div>
