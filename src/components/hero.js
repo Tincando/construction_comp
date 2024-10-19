@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="relative h-[800px] px-6 lg:px-8">
       <StaticImage
-        src="../images/background.jpg"
+        src="/images/background.jpg"
         alt="Background image"
         layout="fullWidth"
         className="absolute inset-0 h-full w-full object-cover -z-10"

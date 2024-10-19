@@ -99,13 +99,27 @@ const IndexPage = () => {
                 {' '}
                 ARAGON{' '}
               </Link>
-              <p className="flex justify-center  ">GCL BUILDS</p>
-              <p className="flex justify-center  ">RIISE BUILDING INC</p>
-              <p className="flex justify-center  ">SKYGRID</p>
-              <p className="flex justify-center  ">CHESNUT HILL DEVELOPMENTS</p>
-              <p className="flex justify-center  ">SAVIC HOMES</p>
-              <p className="flex justify-center  ">VANMAR CONSRUCTORS</p>
-              <p className="flex justify-center  ">ZEHR GROUP</p>
+              <Link className="flex justify-center" to="https://aragon.ca/">
+                GCL BUILDS
+              </Link>
+              <Link className="flex justify-center" to="https://aragon.ca/">
+                RIISE BUILDING INC
+              </Link>
+              <Link className="flex justify-center" to="https://aragon.ca/">
+                SKYGRID
+              </Link>
+              <Link className="flex justify-center" to="https://aragon.ca/">
+                CHESNUT HILL DEVELOPMENTS
+              </Link>
+              <Link className="flex justify-center" to="https://aragon.ca/">
+                SAVIC HOMES
+              </Link>
+              <Link className="flex justify-center" to="https://aragon.ca/">
+                VANMAR CONSRUCTORS
+              </Link>
+              <Link className="flex justify-center" to="https://aragon.ca/">
+                ZEHR GROUP
+              </Link>
             </div>
           </div>
         </div>
