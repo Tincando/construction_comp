@@ -5,7 +5,7 @@ const Card = ({ link, title, description }) => {
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href={link}>
-        <StaticImage src="src/images/background.jpg" alt="Background image" layout="fullWidth" />
+        <StaticImage src="../images/background.jpg" alt="Background image" layout="fullWidth" />
       </a>
       <div className="p-5">
         <a href={link}>

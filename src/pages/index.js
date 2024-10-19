@@ -88,36 +88,66 @@ const IndexPage = () => {
       <div className="mx-auto w-full h-auto bg-white pb-10">
         <div className="flex  md:col-1 gap-10 px-10 pt-28 justify-start">
           <div class="col w-1/2">
-            <h1 className="flex pb-4 text-balance text-2xl font-bold tracking-tight  sm:text-4xl">
+            <h1 className="flex pb-4 text-balance text-4xl font-bold tracking-tight  md:text-4xl">
               WHO WE WORK WITH
             </h1>
             <div class="bg-gray-700 h-2 w-24 text-align mx-auto rounded-sm "></div>
           </div>
           <div class="col">
             <div class="max-w-3xl mx-auto ">
-              <Link className="flex justify-center" to="https://aragon.ca/">
+              <Link
+                className="flex justify-center text-balance text-2xl font-bold tracking-tight"
+                to="https://aragon.ca/"
+              >
                 {' '}
                 ARAGON{' '}
               </Link>
-              <Link className="flex justify-center" to="https://aragon.ca/">
+              <Link
+                className="flex justify-center text-balance text-2xl font-bold tracking-tight"
+                to="https://gclbuilds.com/"
+              >
                 GCL BUILDS
               </Link>
-              <Link className="flex justify-center" to="https://aragon.ca/">
+              <Link
+                className="flex justify-center text-balance text-2xl font-bold tracking-tight"
+                to="https://www.riisebuilding.ca/"
+              >
                 RIISE BUILDING INC
               </Link>
-              <Link className="flex justify-center" to="https://aragon.ca/">
+              <Link
+                className="flex justify-center text-balance text-2xl font-bold tracking-tight"
+                to="https://skygrid.ca/?gclid=CjwKCAjw5MOlBhBTEiwAAJ8e1uqAOwwKHOTMRVtKPhmi-SSx0iNi1z2Ay1RAuh1MSEaF41Ly0eunRhoC8XEQAvD_BwE"
+              >
                 SKYGRID
               </Link>
-              <Link className="flex justify-center" to="https://aragon.ca/">
+              <Link
+                className="flex justify-center text-balance text-2xl font-bold tracking-tight  sm:text-4xl"
+                to="https://chestnuthilldevelopments.com/"
+              >
                 CHESNUT HILL DEVELOPMENTS
               </Link>
-              <Link className="flex justify-center" to="https://aragon.ca/">
+              <Link
+                className="flex justify-center text-balance text-2xl font-bold tracking-tight"
+                to="https://savichomes.com/"
+              >
                 SAVIC HOMES
               </Link>
-              <Link className="flex justify-center" to="https://aragon.ca/">
+              <Link
+                className="flex justify-center text-balance text-2xl font-bold tracking-tight"
+                to="https://vanmarconstructors.com/"
+              >
                 VANMAR CONSRUCTORS
               </Link>
-              <Link className="flex justify-center" to="https://aragon.ca/">
+              <Link
+                className="flex justify-center text-balance text-2xl font-bold tracking-tight"
+                to="https://marlinspring.com/"
+              >
+                MARLIN SPRING DEVELOPMENTS
+              </Link>
+              <Link
+                className="flex justify-center text-balance text-2xl font-bold tracking-tight"
+                to="https://www.zehrgroup.ca/"
+              >
                 ZEHR GROUP
               </Link>
             </div>
