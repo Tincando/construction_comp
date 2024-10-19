@@ -428,7 +428,7 @@ c-13 39 -28 72 -32 72 -5 0 -8 -52 -8 -115z"
               </li>
               <li class="mb-1">
                 <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">
-                  <Link to="/blog">Projects</Link>
+                  Projects
                 </a>
               </li>
               <li class="mb-1">
