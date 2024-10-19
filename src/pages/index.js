@@ -5,6 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 import Hero from '../components/hero';
 import Card from '../components/card';
+import { Link } from 'gatsby';
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -94,7 +95,10 @@ const IndexPage = () => {
           </div>
           <div class="col">
             <div class="max-w-3xl mx-auto ">
-              <p className="flex justify-center  ">ARAGON</p>
+              <Link className="flex justify-center" to="https://aragon.ca/">
+                {' '}
+                ARAGON{' '}
+              </Link>
               <p className="flex justify-center  ">GCL BUILDS</p>
               <p className="flex justify-center  ">RIISE BUILDING INC</p>
               <p className="flex justify-center  ">SKYGRID</p>
