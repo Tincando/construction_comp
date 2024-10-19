@@ -20,3 +20,47 @@ h3 {
   @apply text-2xl;
   @apply font-bold;
 }
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-70%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slide-in-left 0.5s ease-in-out forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  animation: typing 3s steps(40, end) forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.5s ease-in-out forwards;
+}
