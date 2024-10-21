@@ -24,8 +24,13 @@ const IndexPage = () => {
           {/* Cards */}
           {/* CARD 1 */}
           <div class="flex justify-center pt-4">
-            <div class="md:grid md:row  grid-cols-3 gap-4 pt-4 ">
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="grid md:grid-cols-3 sm:grid-cols-1  gap-4 pt-4 ">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+                className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+              >
                 <div className="flex justify-center">
                   <a href="https://chestnuthilldevelopments.com/">
                     <StaticImage
@@ -69,7 +74,12 @@ const IndexPage = () => {
               </div>
 
               {/* CARD 3 */}
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="400"
+                data-sal-easing="ease"
+                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
+              >
                 <div className="flex justify-center">
                   <a href="http://www.kclgroup.ca/projects/">
                     <StaticImage
@@ -113,7 +123,12 @@ const IndexPage = () => {
               </div>
 
               {/* CARD 4 */}
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="500"
+                data-sal-easing="ease"
+                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
+              >
                 <div className="flex justify-center">
                   <a href="https://vivedevelopment.com/project/otis-in-the-park/">
                     <StaticImage
@@ -157,7 +172,12 @@ const IndexPage = () => {
               </div>
 
               {/* CARD 5 */}
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="600"
+                data-sal-easing="ease"
+                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
+              >
                 <div className="flex justify-center">
                   <a href="https://marlinspring.com/our-communities/">
                     <StaticImage
@@ -201,7 +221,12 @@ const IndexPage = () => {
               </div>
 
               {/* CARD 6 */}
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="700"
+                data-sal-easing="ease"
+                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
+              >
                 <div className="flex justify-center">
                   <a href="https://www.zehrgroup.ca/projects/108-garment-st-tower-3">
                     <StaticImage
@@ -245,7 +270,12 @@ const IndexPage = () => {
               </div>
 
               {/* CARD 2 */}
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="800"
+                data-sal-easing="ease"
+                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+              >
                 <div className="flex justify-center">
                   <a href="https://aragon.ca/eightyonewellesley/">
                     <StaticImage
@@ -292,35 +322,85 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="mx-auto w-full h-auto bg-gray-700 pb-10">
-        <h1 className="flex justify-center pt-10 pb-4 text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl">
+        <h1
+          data-sal="slide-right"
+          data-sal-delay="300"
+          data-sal-easing="ease"
+          className="flex justify-center pt-10 pb-4 text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl"
+        >
           WHO WE ARE
         </h1>
-        <div class="bg-white h-2 w-24 text-align mx-auto rounded-sm"></div>
+        <div
+          data-sal="slide-right"
+          data-sal-delay="300"
+          data-sal-easing="ease"
+          class="bg-white h-2 w-24 text-align mx-auto rounded-sm"
+        ></div>
         <div class="max-w-3xl mx-auto ">
-          <p className="flex justify-center p-10 text-white ">
+          <p
+            data-sal="slide-right"
+            data-sal-delay="400"
+            data-sal-easing="ease"
+            className="flex justify-center p-10 text-white "
+          >
             We are a team of experienced professionals. Basic Caulking specializes in residential,
             commercial and industrial projects. We are dedicated to quality, details and lasting
             results. With over 20 years of experience we offer top-quality products and services.
           </p>
-          <h1 className="flex justify-center pt-10 pb-4 text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl">
+          <h1
+            data-sal="slide-right"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            className="flex justify-center pt-10 pb-4 text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl"
+          >
             WHAT WE DO
           </h1>
-          <div class="bg-white h-2 w-24 text-align mx-auto rounded-sm "></div>
+          <div
+            data-sal="slide-right"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            class="bg-white h-2 w-24 text-align mx-auto rounded-sm "
+          ></div>
           <div className="flex justify-center text-white pt-10">
             <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-4 ">
-              <div className="container-sm mx-auto p-2 border-2 rounded-sm border-white">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="200"
+                data-sal-easing="ease"
+                className="container-sm mx-auto p-2 border-2 rounded-sm border-white"
+              >
                 <p>Caulking</p>
               </div>
-              <div className="container-sm mx-auto p-2 border-2 border-white">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+                className="container-sm mx-auto p-2 border-2 border-white"
+              >
                 <p>Fire stopping</p>
               </div>
-              <div className="container-sm mx-auto p-2 border-2 border-white">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="400"
+                data-sal-easing="ease"
+                className="container-sm mx-auto p-2 border-2 border-white"
+              >
                 <p>Smoke seal</p>
               </div>
-              <div className="container-sm mx-auto p-2 border-2 border-white">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="500"
+                data-sal-easing="ease"
+                className="container-sm mx-auto p-2 border-2 border-white"
+              >
                 <p>Interior Silicone</p>
               </div>
-              <div className="container-sm mx-auto p-2 border-2 border-white">
+              <div
+                data-sal="slide-down"
+                data-sal-delay="600"
+                data-sal-easing="ease"
+                className="container-sm mx-auto p-2 border-2 border-white"
+              >
                 <p>Other services</p>
               </div>
             </div>
@@ -329,65 +409,65 @@ const IndexPage = () => {
       </div>
 
       <div className="mx-auto w-full h-auto bg-white pb-10">
-        <div className="flex flex-col md:flex-row px-10 pt-28 justify-start">
+        <div className="flex flex-col md:flex-row md:text-balance px-10 pt-28 justify-start">
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
-            <h1 className="flex pb-4 text-balance text-4xl font-bold tracking-tight md:text-4xl">
+            <h1 className="flex pb-4 text-balance text-3xl sm:text-4xl font-bold tracking-tight md:text-4xl">
               WHO WE WORK WITH :
             </h1>
             <div className="bg-gray-700 h-2 w-full text-align mx-auto rounded-sm"></div>
           </div>
-          <div className="w-full">
+          <div className="w-full ">
             <div className="max-w-3xl mx-auto">
               <Link
-                className="flex justify-center text-balance text-2xl font-bold tracking-tight transition-transform transform hover:scale-105"
+                className="flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://aragon.ca/"
               >
                 ARAGON
               </Link>
               <Link
-                className="flex justify-center text-balance text-2xl font-bold tracking-tight transition-transform transform hover:scale-105"
+                className="flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://gclbuilds.com/"
               >
                 GCL BUILDS
               </Link>
               <Link
-                className="flex justify-center text-balance text-2xl font-bold tracking-tight transition-transform transform hover:scale-105"
+                className="flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://www.riisebuilding.ca/"
               >
                 RIISE BUILDING INC
               </Link>
               <Link
-                className="flex justify-center text-balance text-2xl font-bold tracking-tight transition-transform transform hover:scale-105"
+                className="flex justify-center text-balance text-xl sm:text-3xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://skygrid.ca/?gclid=CjwKCAjw5MOlBhBTEiwAAJ8e1uqAOwwKHOTMRVtKPhmi-SSx0iNi1z2Ay1RAuh1MSEaF41Ly0eunRhoC8XEQAvD_BwE"
               >
                 SKYGRID
               </Link>
               <Link
-                className="flex justify-center text-balance text-2xl font-bold tracking-tight sm:text-4xl transition-transform transform hover:scale-105"
+                className="flex justify-center text-balance text-xl sm:text-4xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://chestnuthilldevelopments.com/"
               >
                 CHESTNUT HILL DEVELOPMENTS
               </Link>
               <Link
-                className="flex justify-center text-balance text-2xl font-bold tracking-tight transition-transform transform hover:scale-105"
+                className="flex justify-center text-balance text-xl sm:text-3xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://savichomes.com/"
               >
                 SAVIC HOMES
               </Link>
               <Link
-                className="flex justify-center text-balance text-2xl font-bold tracking-tight transition-transform transform hover:scale-105"
+                className="flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://vanmarconstructors.com/"
               >
                 VANMAR CONSTRUCTORS
               </Link>
               <Link
-                className="flex justify-center text-balance text-2xl font-bold tracking-tight transition-transform transform hover:scale-105"
+                className="flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://marlinspring.com/"
               >
                 MARLIN SPRING DEVELOPMENTS
               </Link>
               <Link
-                className="flex justify-center text-balance text-2xl font-bold tracking-tight transition-transform transform hover:scale-105"
+                className="flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://www.zehrgroup.ca/"
               >
                 ZEHR GROUP

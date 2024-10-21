@@ -9,31 +9,31 @@ const Navbar = () => {
     const closeButtons = document.querySelectorAll('.navbar-close');
     const backdrop = document.querySelector('.navbar-backdrop');
 
-    // Toggle the menu when the burger is clicked
-    burger.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
-      backdrop.classList.toggle('hidden');
-    });
+    // Function to show the menu with animation
+    const handleBurgerClick = () => {
+      menu.classList.remove('hidden'); // Show the menu
+      menu.classList.add('slide-in-left'); // Apply the slide-in animation
+      backdrop.classList.remove('hidden'); // Show the backdrop
+    };
 
-    // Loop through close buttons and hide the menu and backdrop
+    // Function to hide the menu and backdrop
+    const handleCloseClick = () => {
+      menu.classList.add('hidden'); // Ensure the menu is hidden
+      backdrop.classList.add('hidden'); // Ensure the backdrop is hidden
+      menu.classList.remove('slide-in-left'); // Reset the animation for future clicks
+    };
+
+    // Add event listeners
+    burger.addEventListener('click', handleBurgerClick);
     closeButtons.forEach((closeButton) => {
-      closeButton.addEventListener('click', () => {
-        menu.classList.add('hidden'); // Ensure the menu is hidden
-        backdrop.classList.add('hidden'); // Ensure the backdrop is hidden
-      });
+      closeButton.addEventListener('click', handleCloseClick);
     });
 
     return () => {
-      burger.removeEventListener('click', () => {
-        menu.classList.toggle('hidden');
-        backdrop.classList.toggle('hidden');
-      });
-
+      // Cleanup event listeners
+      burger.removeEventListener('click', handleBurgerClick);
       closeButtons.forEach((closeButton) => {
-        closeButton.removeEventListener('click', () => {
-          menu.classList.add('hidden');
-          backdrop.classList.add('hidden');
-        });
+        closeButton.removeEventListener('click', handleCloseClick);
       });
     };
   }, []);
@@ -240,38 +240,22 @@ c-13 39 -28 72 -32 72 -5 0 -8 -52 -8 -115z"
               />
             </svg>
           </li>
-          <li>
-            <a class="text-sm text-gray-400 hover:text-gray-500">Pricing</a>
-          </li>
-          <li class="text-gray-300">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              class="w-4 h-4 current-fill"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
-              />
-            </svg>
-          </li>
+
           <li>
             <a class="text-sm text-gray-400 hover:text-gray-500">Contact</a>
           </li>
         </ul>
       </nav>
-      <div class="navbar-menu relative z-50 hidden">
-        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-        <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+
+      {/* MOBILE MENU */}
+      <div class="navbar-menu fixed inset-0 z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-50"></div>
+        <nav class="fixed inset-0 flex flex-col py-6 px-6 bg-white border-r overflow-y-auto">
           <div class="flex items-center mb-8">
             <a class="text-3xl font-bold leading-none">
               <Link to="/">
                 <svg
-                  class="h-13"
+                  class="h-12"
                   alt="logo"
                   version="1.0"
                   xmlns="http://www.w3.org/2000/svg"
@@ -394,7 +378,7 @@ c-13 39 -28 72 -32 72 -5 0 -8 -52 -8 -115z"
                 </svg>
               </Link>
             </a>
-            <button class="navbar-close">
+            <button class="navbar-close ml-auto">
               <svg
                 class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
                 xmlns="http://www.w3.org/2000/svg"
@@ -414,9 +398,12 @@ c-13 39 -28 72 -32 72 -5 0 -8 -52 -8 -115z"
           <div>
             <ul>
               <li class="mb-1">
-                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">
-                  <Link to="/">Home</Link>
-                </a>
+                <Link
+                  className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                  to="/"
+                >
+                  Home
+                </Link>
               </li>
               <li class="mb-1">
                 <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">
@@ -429,11 +416,7 @@ c-13 39 -28 72 -32 72 -5 0 -8 -52 -8 -115z"
                   Projects
                 </a>
               </li>
-              <li class="mb-1">
-                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">
-                  Pricing
-                </a>
-              </li>
+
               <li class="mb-1">
                 <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">
                   Contact
