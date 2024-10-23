@@ -4,10 +4,10 @@ import { Link } from 'gatsby';
 const Footer = () => {
   return (
     <footer>
-      <section class="bg-white">
+      <section class="bg-white border-t border-gray-200 shadow-md   ">
         <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-          <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-            <div class="px-5 py-2">
+          <nav class="flex flex-wrap justify-center  -my-2">
+            <div class="px-5 py-2 pb-5">
               <a class="text-3xl font-bold leading-none">
                 <Link to="/">
                   <svg
@@ -135,35 +135,29 @@ c-13 39 -28 72 -32 72 -5 0 -8 -52 -8 -115z"
                 </Link>
               </a>
             </div>
-            <div class="px-5 py-2">
-              <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                About
-              </a>
-            </div>
-            <div class="px-5 py-2">
-              <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Blog
-              </a>
-            </div>
-            <div class="px-5 py-2">
-              <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Team
-              </a>
-            </div>
-            <div class="px-5 py-2">
-              <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Pricing
-              </a>
-            </div>
-            <div class="px-5 py-2">
-              <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Contact
-              </a>
-            </div>
-            <div class="px-5 py-2">
-              <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Terms
-              </a>
+            <div class="flex justify-items-start gap-x-6 py-2 px-50">
+              <div class="col text-base leading-6 text-gray-500">
+                <p class="text-base leading-6 text-gray-800 font-bold pb-4">Basic Caulking</p>
+                <p>Alex Basic : 416 856 4702</p>
+                <p>Neno Basic : 416 876 3995</p>
+                <p>Email: bcaulking@gmail.com</p>
+                <p>909 Glencairn Avenue,</p>
+                <p>Toronto, Ontario, M6B 2A6</p>
+              </div>
+              <div class="col">
+                <p class="text-base leading-6 text-gray-800 font-bold pb-4">To learn more about</p>
+                <p class="text-base leading-6 text-gray-800 pb-4 ">
+                  Basic Caulking Inc. visit us at
+                </p>
+                <Link
+                  to="https://www.basic-caulking.ca"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-base leading-6 text-gray-500 font-bold underline"
+                >
+                  www.basic-caulking.ca
+                </Link>
+              </div>
             </div>
           </nav>
 

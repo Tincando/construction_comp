@@ -6,6 +6,7 @@ import Seo from '../components/seo';
 import Hero from '../components/hero';
 import Card from '../components/card';
 import { Link } from 'gatsby';
+import ContactForm from '../components/contact_form';
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -29,7 +30,7 @@ const IndexPage = () => {
                 data-sal="slide-down"
                 data-sal-delay="300"
                 data-sal-easing="ease"
-                className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                className=" hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
                   <a href="https://chestnuthilldevelopments.com/">
@@ -78,7 +79,7 @@ const IndexPage = () => {
                 data-sal="slide-down"
                 data-sal-delay="400"
                 data-sal-easing="ease"
-                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
+                className=" hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
                   <a href="http://www.kclgroup.ca/projects/">
@@ -127,7 +128,7 @@ const IndexPage = () => {
                 data-sal="slide-down"
                 data-sal-delay="500"
                 data-sal-easing="ease"
-                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
+                className="hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
                   <a href="https://vivedevelopment.com/project/otis-in-the-park/">
@@ -176,7 +177,7 @@ const IndexPage = () => {
                 data-sal="slide-down"
                 data-sal-delay="600"
                 data-sal-easing="ease"
-                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
+                className=" hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
                   <a href="https://marlinspring.com/our-communities/">
@@ -225,7 +226,7 @@ const IndexPage = () => {
                 data-sal="slide-down"
                 data-sal-delay="700"
                 data-sal-easing="ease"
-                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
+                className=" hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
                   <a href="https://www.zehrgroup.ca/projects/108-garment-st-tower-3">
@@ -274,7 +275,7 @@ const IndexPage = () => {
                 data-sal="slide-down"
                 data-sal-delay="800"
                 data-sal-easing="ease"
-                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                className="hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
                   <a href="https://aragon.ca/eightyonewellesley/">
@@ -419,25 +420,25 @@ const IndexPage = () => {
           <div className="w-full ">
             <div className="max-w-3xl mx-auto">
               <Link
-                className="flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
+                className=" flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://aragon.ca/"
               >
                 ARAGON
               </Link>
               <Link
-                className="flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
+                className=" flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://gclbuilds.com/"
               >
                 GCL BUILDS
               </Link>
               <Link
-                className="flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
+                className=" flex justify-center text-balance text-xl sm:text-2xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://www.riisebuilding.ca/"
               >
                 RIISE BUILDING INC
               </Link>
               <Link
-                className="flex justify-center text-balance text-xl sm:text-3xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
+                className="  flex justify-center text-balance text-xl sm:text-3xl font-bold tracking-tight transition-transform transform hover:scale-105 mb-2"
                 to="https://skygrid.ca/?gclid=CjwKCAjw5MOlBhBTEiwAAJ8e1uqAOwwKHOTMRVtKPhmi-SSx0iNi1z2Ay1RAuh1MSEaF41Ly0eunRhoC8XEQAvD_BwE"
               >
                 SKYGRID
@@ -476,6 +477,8 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
+
+      {/* Step 4: Add the contact form <ContactForm />  */}
     </Layout>
   );
 };
