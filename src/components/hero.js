@@ -27,7 +27,7 @@ const Hero = () => {
           BASIC CAULKING
         </h1>
         <h2 className="text-balance text-2xl font-bold tracking-tight text-white sm:text-3xl slide-in-left">
-          With over 20 years of experience we offer top-quality products and services.
+          With over 25 years of experience we offer top-quality products and services.
         </h2>
         <p className="mt-6 text-lg leading-8 text-white slide-in-left">
           Specialize in residential, commercial and industrial projects.
