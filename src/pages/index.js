@@ -33,15 +33,13 @@ const IndexPage = () => {
                 className=" hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
-                  <a href="https://chestnuthilldevelopments.com/">
-                    <StaticImage
-                      src="https://chestnuthilldevelopments.com/wp-content/uploads/2024/05/Universal-City-One-Exterior.jpg"
-                      alt="Background image"
-                      layout="fixed"
-                      width={250}
-                      height={250}
-                    />
-                  </a>
+                  <StaticImage
+                    src="https://chestnuthilldevelopments.com/wp-content/uploads/2024/05/Universal-City-One-Exterior.jpg"
+                    alt="Background image"
+                    layout="fixed"
+                    width={250}
+                    height={250}
+                  />
                 </div>
               </div>
 
@@ -53,15 +51,13 @@ const IndexPage = () => {
                 className=" hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
-                  <a href="http://www.kclgroup.ca/projects/">
-                    <StaticImage
-                      src="https://www.rosecorp.com/wp-content/uploads/2019/07/Residential-175-Deerfield-Road-2.jpg"
-                      alt="Background image"
-                      layout="fixed"
-                      height={250}
-                      width={250}
-                    />
-                  </a>
+                  <StaticImage
+                    src="https://www.rosecorp.com/wp-content/uploads/2019/07/Residential-175-Deerfield-Road-2.jpg"
+                    alt="Background image"
+                    layout="fixed"
+                    height={250}
+                    width={250}
+                  />
                 </div>
               </div>
 
@@ -73,15 +69,13 @@ const IndexPage = () => {
                 className="hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
-                  <a href="https://vivedevelopment.com/project/otis-in-the-park/">
-                    <StaticImage
-                      src="https://precondo.ca/wp-content/uploads/2021/03/Otis-ResidencesMain1Featured.jpg"
-                      alt="Background image"
-                      layout="fixed"
-                      height={250}
-                      width={250}
-                    />
-                  </a>
+                  <StaticImage
+                    src="https://precondo.ca/wp-content/uploads/2021/03/Otis-ResidencesMain1Featured.jpg"
+                    alt="Background image"
+                    layout="fixed"
+                    height={250}
+                    width={250}
+                  />
                 </div>
               </div>
 
@@ -93,15 +87,13 @@ const IndexPage = () => {
                 className=" hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
-                  <a href="https://marlinspring.com/our-communities/">
-                    <StaticImage
-                      src="https://shared-s3.property.ca/public/images/buildings/7865/stockyard-district-condos-2306-st-clair-ave-w-normal-1.jpg"
-                      alt="Background image"
-                      layout="fixed"
-                      height={250}
-                      width={250}
-                    />
-                  </a>
+                  <StaticImage
+                    src="https://shared-s3.property.ca/public/images/buildings/7865/stockyard-district-condos-2306-st-clair-ave-w-normal-1.jpg"
+                    alt="Background image"
+                    layout="fixed"
+                    height={250}
+                    width={250}
+                  />
                 </div>
               </div>
 
@@ -113,15 +105,13 @@ const IndexPage = () => {
                 className=" hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
-                  <a href="https://www.zehrgroup.ca/projects/108-garment-st-tower-3">
-                    <StaticImage
-                      src="https://images.ctfassets.net/2srwigp2rztx/6BHMMaT3JfwYhBdUwic1do/c8d3e17df13919d0ccddca0a051f03ff/a1._2G9K5KOSEOSE_s.jpg"
-                      alt="Background image"
-                      layout="fixed"
-                      height={250}
-                      width={250}
-                    />
-                  </a>
+                  <StaticImage
+                    src="https://images.ctfassets.net/2srwigp2rztx/6BHMMaT3JfwYhBdUwic1do/c8d3e17df13919d0ccddca0a051f03ff/a1._2G9K5KOSEOSE_s.jpg"
+                    alt="Background image"
+                    layout="fixed"
+                    height={250}
+                    width={250}
+                  />
                 </div>
               </div>
 
@@ -133,15 +123,13 @@ const IndexPage = () => {
                 className="hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="flex justify-center">
-                  <a href="https://aragon.ca/eightyonewellesley/">
-                    <StaticImage
-                      src="https://aragon.ca/wp-content/uploads/2021/12/81-Wellesley-Hero-1-scaled-1.jpg"
-                      alt="Background image"
-                      layout="fixed"
-                      height={250}
-                      width={250}
-                    />
-                  </a>
+                  <StaticImage
+                    src="https://aragon.ca/wp-content/uploads/2021/12/81-Wellesley-Hero-1-scaled-1.jpg"
+                    alt="Background image"
+                    layout="fixed"
+                    height={250}
+                    width={250}
+                  />
                 </div>
               </div>
             </div>
