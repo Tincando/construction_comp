@@ -39,6 +39,7 @@ const IndexPage = () => {
                     layout="fixed"
                     width={250}
                     height={250}
+                    className="rounded-lg"
                   />
                 </div>
               </div>
@@ -57,6 +58,7 @@ const IndexPage = () => {
                     layout="fixed"
                     height={250}
                     width={250}
+                    className="rounded-lg"
                   />
                 </div>
               </div>
@@ -75,6 +77,7 @@ const IndexPage = () => {
                     layout="fixed"
                     height={250}
                     width={250}
+                    className="rounded-lg"
                   />
                 </div>
               </div>
@@ -93,6 +96,7 @@ const IndexPage = () => {
                     layout="fixed"
                     height={250}
                     width={250}
+                    className="rounded-lg"
                   />
                 </div>
               </div>
@@ -111,6 +115,7 @@ const IndexPage = () => {
                     layout="fixed"
                     height={250}
                     width={250}
+                    className="rounded-lg"
                   />
                 </div>
               </div>
@@ -122,13 +127,14 @@ const IndexPage = () => {
                 data-sal-easing="ease"
                 className="hover:scale-105 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
               >
-                <div className="flex justify-center">
+                <div className="flex justify-center  ">
                   <StaticImage
                     src="https://aragon.ca/wp-content/uploads/2021/12/81-Wellesley-Hero-1-scaled-1.jpg"
                     alt="Background image"
                     layout="fixed"
                     height={250}
                     width={250}
+                    className="rounded-lg"
                   />
                 </div>
               </div>
