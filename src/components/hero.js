@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 import { Parallax } from 'react-parallax';
 
@@ -7,19 +6,15 @@ const Hero = () => {
   return (
     <div className="relative h-[900px] px-0 lg:px-0">
       {/* Parallax wrapper */}
-      <Parallax
-        strength={300}
-        bgImage="https://res.cloudinary.com/ddk9fm3fn/image/upload/v1729354778/brvd3n3dywubztkgszgp.jpg"
-        bgImageAlt="Background image"
-        bgImageStyle={{
-          objectFit: 'cover', // Prevent squishing
-          width: '100%', // Full width
-          height: '100%', // Full height
-        }}
-        className="absolute top-0 left-0 w-full h-full -z-10"
-      >
-        <div className="h-[800px]"></div> {/* This div ensures height for the parallax */}
-      </Parallax>
+      <div className="absolute top-0 left-0 w-full h-full -z-10">
+        <video autoPlay muted loop playsInline className="object-cover w-full h-full">
+          <source
+            src="https://res.cloudinary.com/ddk9fm3fn/video/upload/v1731535168/kc7i2emxo8z9mphqfnxj.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
       {/* Main Content */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-35 p-6">
@@ -34,7 +29,7 @@ const Hero = () => {
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <Link
-            to="/"
+            to="/contact"
             className="rounded-md bg-yellow-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-500"
             aria-label="Contact Us"
           >

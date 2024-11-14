@@ -1,19 +1,54 @@
-import * as React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const templateParams = {
+      name: name,
+      email: email,
+      message: message,
+    };
+
+    emailjs.send('service_nftf1x3', 'template_i9sanvq', templateParams, '5ru182G80otGD3BUO').then(
+      (response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      },
+      (err) => {
+        console.log('FAILED...', err);
+      },
+    );
+  };
+
   return (
-    <div className="bg-red-500 relative h-[800px] px-0 lg:px-0">
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
-        <h1 className="text-balance p-10 text-4xl font-bold tracking-tight text-white sm:text-6xl slide-in-left">
-          Contact Us
-        </h1>
-        <p className="mt-6 text-lg leading-8 text-white slide-in-left">Get in touch with us</p>
-        <div className="mt-10 flex items-center justify-center gap-x-6">
-          <a href="mailto:1wXzI@example.com" />
-        </div>
-      </div>
-    </div>
+    <form onSubmit={sendEmail}>
+      <input
+        type="text"
+        placeholder="Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        required
+      />
+      <input
+        type="email"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        required
+      />
+      <textarea
+        placeholder="Message"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        required
+      ></textarea>
+      <button type="submit">Send</button>
+    </form>
   );
 };
 
