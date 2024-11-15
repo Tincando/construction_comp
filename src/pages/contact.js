@@ -69,7 +69,11 @@ const ContactPage = () => {
             <div className="mt-6">
               <p className="text-balance mt-4 text-lg leading-8 flex items-center">
                 <FaPhoneAlt className="mr-4 text-2xl" />
-                +416 856 4702
+                +1 (416) 856 4702
+              </p>
+              <p className="text-balance mt-4 text-lg leading-8 flex items-center">
+                <FaPhoneAlt className="mr-4 text-2xl" />
+                +1 (416) 876 3995
               </p>
               <p className="text-balance mt-4 text-lg leading-8 flex items-center">
                 <FaEnvelope className="mr-4 text-2xl" />
@@ -84,7 +88,7 @@ const ContactPage = () => {
         </div>
 
         <div className="flex-1 w-full sm:w-1/2 lg:w-1/3">
-          <div className="h-[700px] bg-yellow-100 flex flex-col justify-start px-10 pt-48 lg:pt-56">
+          <div className="h-[700px] bg-blue-100 flex flex-col justify-start px-10 pt-48 lg:pt-56">
             <h1 className="text-5xl sm:text-5xl font-extrabold tracking-tight slide-in-left pb-4">
               Get in touch
             </h1>

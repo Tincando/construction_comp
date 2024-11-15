@@ -3,10 +3,20 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Construction_comp`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Basic Caulking`,
+    siteUrl: `https://basic-caulking.ca/`,
+    description: `Basic Caulkin, specializes in residential, commercial and industrial projects. We are dedicated to quality, details and lasting results.`,
+    image: `src/images/icon.png`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://basic-caulking.ca/',
+        sitemap: 'https://basic-caulking.ca/sitemap-index.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
     'gatsby-plugin-sitemap',
