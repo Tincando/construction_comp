@@ -197,7 +197,9 @@ m24 -77 c0 -13 3 -31 6 -40 4 -12 0 -16 -16 -16 -18 0 -21 4 -16 23 3 12 6 30
             </svg>
           </li>
           <li>
-            <a class="text-sm text-gray-400 hover:text-gray-500">About Us</a>
+            <Link className="text-sm text-gray-400 hover:text-gray-500" to="/about">
+              About Us
+            </Link>
           </li>
           <li class="text-gray-300">
             <svg
@@ -398,10 +400,12 @@ m24 -77 c0 -13 3 -31 6 -40 4 -12 0 -16 -16 -16 -18 0 -21 4 -16 23 3 12 6 30
                 </Link>
               </li>
               <li class="mb-1">
-                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded">
-                  {' '}
+                <Link
+                  className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                  to="/about"
+                >
                   About Us
-                </a>
+                </Link>
               </li>
               <li class="mb-1">
                 <Link
